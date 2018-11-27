@@ -1,1 +1,101 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+ <title>Cloud Computing</title>
+	  <link rel="icon" href="cloud.gif" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="animate.css">
+    <link rel="stylesheet" type="text/css" href="music.css">
+    <script src="jquery.js"></script>
+    <script src="index.js"></script>
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Raleway');
+      body, html{
+        margin:0;
+        padding:0;
+        width: 100%;
+        height: 100%;
+      }
+      .nav, nav ul{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+      nav ul{
+          display: flex;
+          list-style: none;
+          text-align:center;
+      }
+      .li{
+        flex-basis: 20%;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        overflow: hidden;
+      }
+      nav li:nth-of-type(1){background-color: #2e323c}
+      nav li:nth-of-type(1):hover{
+	background-color: rgba(41,54,59,0.5);
+      }
+      nav li:nth-of-type(2){background-color: #2b4251}
+      nav li:nth-of-type(2):hover{
+	 background-color: rgba(41,54,59,0.5);
+      }
+      nav li:nth-of-type(3){background-color: #4c586f}
+      nav li:nth-of-type(3):hover{
+	 background-color: rgba(41,54,59,0.5);
+	 
+      }
+      nav li:nth-of-type(4){background-color: #5b7d87}
+      nav li:nth-of-type(4):hover{
+	 background-color: rgba(41,54,59,0.5);
+      }
+	     
+      nav li:nth-of-type(5){background-color: #91b3bc}
+      nav li:nth-of-type(5):hover{
+	  background-color: rgba(41,54,59,0.5);
+      }
+      ul li a{
+          position: relative;
+          top: 48%;
+          text-decoration:none;
+          font-family: 'Raleway', sans-serif;
+          font-weight: bold;
+          color:white;
+	}
+	    
+	.a {
+	    flex-basis: 20%;
+            justify-content: center;
+            align-items: center;
+            padding-top: 100%;
+            padding-bottom: 100%;
+	    overflow: hidden;
+	  }
+	
+    </style>
+  </head>
+  <body>
+  <nav class="nav" role="navigation">
+    <ul class="slideInDown animated">
+      <li class="li"><a href="https://teakyung25.github.io/tsawebsite/Analysis/Advantages/index.html" class="nav-items a">Analysis</a></li>
+      <li class="li"><a href="https://teakyung25.github.io/tsawebsite/Application/index.html" class="nav-item2 a">Applications</a></li>
+      <li class="li"><a href="https://teakyung25.github.io/tsawebsite/Services/IaaS/index.html" class="nav-item3 a">Services</a></li>
+      <li class="li"><a href="https://teakyung25.github.io/tsawebsite/Location/Public/index.html" class="nav-item4 a">Location</a></li>
+      <li class="li"><a href="https://teakyung25.github.io/tsawebsite/Requirements/index.html" class="nav-item5 a">Requirements</a></li
+    </ul>
+  </nav>
+    <a style="position:fixed;">
+<div class="">
+	<audio id="backgroundaudio"style="display:none;" autoplay loop><source src="bensound-creativeminds.mp3" type="audio/mpeg"></audio>
+	<div class="line-c">
+    	<div id="line-1" class="line"></div>
+    	<div id="line-2" class="line"></div>
+    	<div id="line-3" class="line"></div>
+    	<div id="line-4" class="line"></div>
+    	<div id="line-5" class="line"></div>
+	</div>
+</div>
+</a>
+  </body>
+</html>
